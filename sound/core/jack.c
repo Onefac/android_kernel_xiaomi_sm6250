@@ -40,12 +40,6 @@ static int jack_switch_types[SND_JACK_SWITCH_TYPES] = {
 	SW_JACK_PHYSICAL_INSERT,
 	SW_VIDEOOUT_INSERT,
 	SW_LINEIN_INSERT,
-<<<<<<< HEAD
-=======
-	SW_HPHL_OVERCURRENT,
-	SW_HPHR_OVERCURRENT,
-	SW_UNSUPPORT_INSERT,
->>>>>>> 2f040293c111 (Revert "ALSA: jack: Add support to report second microphone")
 };
 #endif /* CONFIG_SND_JACK_INPUT_DEV */
 
